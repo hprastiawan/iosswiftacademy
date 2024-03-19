@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Day - 1A -  Enumerations Swift'/>
+        <page name='Day - 1B -  Struct VS Class Swift'/>
+        <page name='Day - 2A -  Properties Swift '/>
+        <page name='Day - 2B -  Methode &amp; Subscripts Swift'/>
+        <page name='Day - 3A -  Inheritance Class Swift'/>
+        <page name='Day - 3B - Initialization and Deinitialization Class'/>
+        <page name='Day - 4A - Optional Chaining'/>
+        <page name='Day - 4B - Error Handling Swift'/>
+        <page name='Day - 5A -  Concurrency Swift'/>
+        <page name='Day - 5B - Assignment'/>
+    </pages>
+</playground>
