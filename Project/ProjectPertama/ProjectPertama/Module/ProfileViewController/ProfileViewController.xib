@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="ProjectPertama" customModuleProvider="target">
+            <connections>
+                <outlet property="containerImageView" destination="fY7-b5-qwN" id="Egj-Ag-We3"/>
+                <outlet property="editProfileButton" destination="jp7-cF-7vf" id="Bpo-pc-Ch6"/>
+                <outlet property="emailTF" destination="2dE-dY-SQ5" id="9iM-he-7U6"/>
+                <outlet property="nameLabel" destination="JMm-Fa-asx" id="GgQ-zq-8Bc"/>
+                <outlet property="phoneNumberTF" destination="5sr-bQ-KYC" id="yta-62-fcc"/>
+                <outlet property="profileImageView" destination="WoV-ch-xKy" id="sHU-tN-rlX"/>
+                <outlet property="subNameLabel" destination="KJw-J3-xZS" id="Ahl-Ep-m4J"/>
+                <outlet property="usernameTF" destination="ApM-RD-tcC" id="8Hm-EC-3ir"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_backround" translatesAutoresizingMaskIntoConstraints="NO" id="LDf-R0-S0D">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="230"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="2D8-pX-Khg"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fY7-b5-qwN">
+                    <rect key="frame" x="106.66666666666669" y="99" width="180" height="180"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WoV-ch-xKy">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="WoV-ch-xKy" firstAttribute="leading" secondItem="fY7-b5-qwN" secondAttribute="leading" id="6Ul-k1-HoF"/>
+                        <constraint firstAttribute="width" constant="180" id="DLS-pE-fh2"/>
+                        <constraint firstAttribute="trailing" secondItem="WoV-ch-xKy" secondAttribute="trailing" id="LeD-f5-eIJ"/>
+                        <constraint firstAttribute="height" constant="180" id="hB3-3M-SXV"/>
+                        <constraint firstAttribute="bottom" secondItem="WoV-ch-xKy" secondAttribute="bottom" id="kQv-z9-xWa"/>
+                        <constraint firstItem="WoV-ch-xKy" firstAttribute="top" secondItem="fY7-b5-qwN" secondAttribute="top" id="kfG-qH-D3n"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="tQa-KU-LIm">
+                    <rect key="frame" x="20" y="299" width="353" height="408.66666666666674"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SpS-l8-Qso">
+                            <rect key="frame" x="0.0" y="0.0" width="353" height="49.666666666666664"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nur Kholis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMm-Fa-asx">
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="25.333333333333332"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="21"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJw-J3-xZS">
+                                    <rect key="frame" x="0.0" y="33.333333333333314" width="353" height="16.333333333333329"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="354-nd-dhF">
+                            <rect key="frame" x="0.0" y="72.666666666666686" width="353" height="336"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ApM-RD-tcC" customClass="InputField" customModule="ProjectPertama" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="90"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="90" id="jZ7-yF-O5E"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dE-dY-SQ5" customClass="InputField" customModule="ProjectPertama" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="123" width="353" height="90"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="90" id="JwB-1Y-kit"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5sr-bQ-KYC" customClass="InputField" customModule="ProjectPertama" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="245.99999999999994" width="353" height="90"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="90" id="f7D-Zw-6Te"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jp7-cF-7vf">
+                    <rect key="frame" x="246.66666666666663" y="99" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="DKb-cJ-glG"/>
+                        <constraint firstAttribute="height" constant="40" id="hRL-di-ny7"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="systemYellowColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button" image="camera.viewfinder" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
+                    </state>
+                    <buttonConfiguration key="configuration" style="plain" image="externaldrive.fill" catalog="system">
+                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="medium"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tQa-KU-LIm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="2Jh-HN-sPG"/>
+                <constraint firstItem="jp7-cF-7vf" firstAttribute="top" secondItem="fY7-b5-qwN" secondAttribute="top" id="2QE-RW-9ld"/>
+                <constraint firstAttribute="trailing" secondItem="tQa-KU-LIm" secondAttribute="trailing" constant="20" id="9IB-h7-nrX"/>
+                <constraint firstItem="jp7-cF-7vf" firstAttribute="trailing" secondItem="fY7-b5-qwN" secondAttribute="trailing" id="Dk2-K2-7Ar"/>
+                <constraint firstItem="tQa-KU-LIm" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="NK7-jM-F53"/>
+                <constraint firstItem="LDf-R0-S0D" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ra3-Bx-NwL"/>
+                <constraint firstItem="fY7-b5-qwN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="hBm-oX-aGx"/>
+                <constraint firstItem="LDf-R0-S0D" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jLA-Xz-4NG"/>
+                <constraint firstItem="tQa-KU-LIm" firstAttribute="top" secondItem="fY7-b5-qwN" secondAttribute="bottom" constant="20" id="t6y-sL-PlL"/>
+                <constraint firstItem="fY7-b5-qwN" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="zte-t6-DQy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LDf-R0-S0D" secondAttribute="trailing" id="zwz-iq-HNJ"/>
+            </constraints>
+            <point key="canvasLocation" x="61.832061068702288" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera.viewfinder" catalog="system" width="128" height="115"/>
+        <image name="externaldrive.fill" catalog="system" width="128" height="87"/>
+        <image name="profile_backround" width="375" height="244"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

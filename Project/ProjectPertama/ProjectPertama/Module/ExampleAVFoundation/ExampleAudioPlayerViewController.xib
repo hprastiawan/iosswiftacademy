@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExampleAudioPlayerViewController" customModule="ProjectPertama" customModuleProvider="target">
+            <connections>
+                <outlet property="audioImage" destination="tPq-qj-r2U" id="cxZ-9t-8SC"/>
+                <outlet property="playAudioButton" destination="W3a-Xg-btA" id="v1i-fE-f3m"/>
+                <outlet property="tableView" destination="2di-i2-3bW" id="niP-xA-Lv6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2di-i2-3bW">
+                    <rect key="frame" x="0.0" y="250" width="393" height="568"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tcG-LB-HZX">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tPq-qj-r2U">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="193"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3a-Xg-btA">
+                            <rect key="frame" x="12" y="203" width="369" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="rRY-Mp-Exi"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Play"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="W3a-Xg-btA" firstAttribute="top" secondItem="tPq-qj-r2U" secondAttribute="bottom" constant="10" id="5l4-OJ-G4E"/>
+                        <constraint firstAttribute="bottom" secondItem="W3a-Xg-btA" secondAttribute="bottom" constant="12" id="8NA-fv-CV6"/>
+                        <constraint firstItem="tPq-qj-r2U" firstAttribute="top" secondItem="tcG-LB-HZX" secondAttribute="top" id="L1f-ag-z3h"/>
+                        <constraint firstAttribute="height" constant="250" id="Ldq-Dt-Bss"/>
+                        <constraint firstItem="W3a-Xg-btA" firstAttribute="leading" secondItem="tcG-LB-HZX" secondAttribute="leading" constant="12" id="NY7-te-apV"/>
+                        <constraint firstItem="tPq-qj-r2U" firstAttribute="leading" secondItem="tcG-LB-HZX" secondAttribute="leading" id="Vde-Y9-z7H"/>
+                        <constraint firstAttribute="trailing" secondItem="tPq-qj-r2U" secondAttribute="trailing" id="kDm-Aw-0L1"/>
+                        <constraint firstAttribute="trailing" secondItem="W3a-Xg-btA" secondAttribute="trailing" constant="12" id="xvK-Fd-Y5n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tcG-LB-HZX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3t3-7K-02j"/>
+                <constraint firstItem="tcG-LB-HZX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ISC-Zh-ZXV"/>
+                <constraint firstItem="2di-i2-3bW" firstAttribute="top" secondItem="tcG-LB-HZX" secondAttribute="bottom" id="Jvh-1U-qlQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2di-i2-3bW" secondAttribute="trailing" id="O5v-fZ-1HO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2di-i2-3bW" secondAttribute="bottom" id="fEd-h9-tjq"/>
+                <constraint firstItem="tcG-LB-HZX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="oKq-9y-dNt"/>
+                <constraint firstItem="2di-i2-3bW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tmG-SE-E4f"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

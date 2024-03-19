@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExampleMultithreadingViewController" customModule="ProjectPertama" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="53w-2c-RCT" id="faE-Yz-N7b"/>
+                <outlet property="statusLabel" destination="pfs-tk-kBi" id="z1Y-Nc-pfb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S62-3G-iVB">
+                    <rect key="frame" x="16" y="383" width="361" height="35"/>
+                    <color key="backgroundColor" red="0.12562827800000001" green="0.34525444100000002" blue="0.71561064730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="VTU-I6-qHf"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Enter"/>
+                    <connections>
+                        <action selector="startTask:" destination="-1" eventType="touchUpInside" id="wsI-Ni-L3k"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_close" translatesAutoresizingMaskIntoConstraints="NO" id="53w-2c-RCT">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="258"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="258" id="Fu8-df-fPt"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffy-zH-OUm">
+                    <rect key="frame" x="16" y="328" width="361" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="gaF-Np-7DC"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Download Image"/>
+                    <connections>
+                        <action selector="downloadImage:" destination="-1" eventType="touchUpInside" id="nPb-ky-5B7"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfs-tk-kBi">
+                    <rect key="frame" x="16" y="282" width="361" height="26"/>
+                    <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="S62-3G-iVB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="0vq-ZL-QNQ"/>
+                <constraint firstItem="53w-2c-RCT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Cd7-fb-OKE"/>
+                <constraint firstItem="53w-2c-RCT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Eoe-AZ-eFT"/>
+                <constraint firstItem="pfs-tk-kBi" firstAttribute="top" secondItem="53w-2c-RCT" secondAttribute="bottom" constant="24" id="MGC-Vc-o59"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S62-3G-iVB" secondAttribute="trailing" constant="16" id="R8r-Wi-iZE"/>
+                <constraint firstItem="S62-3G-iVB" firstAttribute="top" secondItem="ffy-zH-OUm" secondAttribute="bottom" constant="20" id="SQA-zn-nyP"/>
+                <constraint firstItem="ffy-zH-OUm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="bgL-kX-G7h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ffy-zH-OUm" secondAttribute="trailing" constant="16" id="iMW-G0-Tbx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pfs-tk-kBi" secondAttribute="trailing" constant="16" id="lTU-HS-RCx"/>
+                <constraint firstItem="53w-2c-RCT" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="vJQ-fL-OKL"/>
+                <constraint firstItem="ffy-zH-OUm" firstAttribute="top" secondItem="pfs-tk-kBi" secondAttribute="bottom" constant="20" id="wa7-cJ-Eea"/>
+                <constraint firstItem="pfs-tk-kBi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="zfO-2A-XfJ"/>
+            </constraints>
+            <point key="canvasLocation" x="51.145038167938928" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

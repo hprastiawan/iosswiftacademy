@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mytestspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lshinkuro/MyTestSPM.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "31f9af5f5a74685c07f74c3710577239687e7950"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="ProjectPertama" customModuleProvider="target">
+            <connections>
+                <outlet property="descLabel" destination="J7f-l3-5zk" id="Hib-rR-zg2"/>
+                <outlet property="horizontalSlider" destination="At6-hB-O8x" id="hHt-ba-hRP"/>
+                <outlet property="progressView" destination="hMg-Fg-zv1" id="UKp-4t-sYM"/>
+                <outlet property="switchButton" destination="eDJ-Sq-4Go" id="hE2-IG-bvX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hMg-Fg-zv1">
+                    <rect key="frame" x="20" y="416" width="353" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="vAx-bb-bfg"/>
+                    </constraints>
+                    <color key="progressTintColor" systemColor="systemOrangeColor"/>
+                    <color key="trackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7f-l3-5zk">
+                    <rect key="frame" x="188" y="456" width="17" height="34"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-0.5" minValue="-1.5" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="At6-hB-O8x">
+                    <rect key="frame" x="18" y="366" width="357" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="OR7-dV-Iqi"/>
+                    </constraints>
+                </slider>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDJ-Sq-4Go">
+                    <rect key="frame" x="324" y="315" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="cO4-bP-EQB"/>
+                    </constraints>
+                </switch>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemRedColor"/>
+            <constraints>
+                <constraint firstItem="J7f-l3-5zk" firstAttribute="top" secondItem="hMg-Fg-zv1" secondAttribute="bottom" constant="20" id="7ZK-bz-l6x"/>
+                <constraint firstItem="hMg-Fg-zv1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NHb-Zw-fiL"/>
+                <constraint firstItem="hMg-Fg-zv1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SiD-PH-xgm"/>
+                <constraint firstItem="hMg-Fg-zv1" firstAttribute="top" secondItem="At6-hB-O8x" secondAttribute="bottom" constant="20" id="Ype-KO-NAM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hMg-Fg-zv1" secondAttribute="trailing" constant="20" id="aNU-Nn-IXF"/>
+                <constraint firstItem="J7f-l3-5zk" firstAttribute="centerX" secondItem="hMg-Fg-zv1" secondAttribute="centerX" id="eN6-Oc-K3A"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="At6-hB-O8x" secondAttribute="trailing" constant="20" id="kv3-Uk-nko"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eDJ-Sq-4Go" secondAttribute="trailing" constant="20" id="lA6-ru-7hA"/>
+                <constraint firstItem="hMg-Fg-zv1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ltI-Gd-fnW"/>
+                <constraint firstItem="At6-hB-O8x" firstAttribute="top" secondItem="eDJ-Sq-4Go" secondAttribute="bottom" constant="20" id="mjA-rm-9eK"/>
+                <constraint firstItem="At6-hB-O8x" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="rmR-Fp-rbH"/>
+            </constraints>
+            <point key="canvasLocation" x="57.251908396946561" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

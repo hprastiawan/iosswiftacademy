@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="PersonListCell" customModule="ProjectPertama" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLl-cg-Eeo">
+                        <rect key="frame" x="16" y="8" width="288" height="136"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prabowo" translatesAutoresizingMaskIntoConstraints="NO" id="3Ei-dP-Rgt">
+                                <rect key="frame" x="8" y="8" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="LDe-dN-dCs"/>
+                                    <constraint firstAttribute="height" constant="120" id="jkS-JN-4ni"/>
+                                    <constraint firstAttribute="width" secondItem="3Ei-dP-Rgt" secondAttribute="height" multiplier="1:1" id="wr9-VO-v85"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNa-a9-uTF">
+                                <rect key="frame" x="134" y="7" width="146" height="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NI4-Iv-yFd">
+                                <rect key="frame" x="134" y="34" width="146" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zNa-a9-uTF" firstAttribute="top" secondItem="FLl-cg-Eeo" secondAttribute="top" constant="7" id="0h8-Nk-zUJ"/>
+                            <constraint firstItem="NI4-Iv-yFd" firstAttribute="trailing" secondItem="zNa-a9-uTF" secondAttribute="trailing" id="5Hp-gr-YRq"/>
+                            <constraint firstItem="3Ei-dP-Rgt" firstAttribute="centerY" secondItem="FLl-cg-Eeo" secondAttribute="centerY" id="5r4-Fz-c4f"/>
+                            <constraint firstAttribute="bottom" secondItem="3Ei-dP-Rgt" secondAttribute="bottom" constant="8" id="Elh-PK-XDH"/>
+                            <constraint firstItem="3Ei-dP-Rgt" firstAttribute="top" secondItem="FLl-cg-Eeo" secondAttribute="top" constant="8" id="G40-H0-jgp"/>
+                            <constraint firstItem="3Ei-dP-Rgt" firstAttribute="leading" secondItem="FLl-cg-Eeo" secondAttribute="leading" constant="8" id="N4O-8p-XXl"/>
+                            <constraint firstItem="NI4-Iv-yFd" firstAttribute="leading" secondItem="zNa-a9-uTF" secondAttribute="leading" id="P2b-Vb-OzO"/>
+                            <constraint firstItem="NI4-Iv-yFd" firstAttribute="top" secondItem="zNa-a9-uTF" secondAttribute="bottom" constant="10" id="c12-QR-24N"/>
+                            <constraint firstItem="zNa-a9-uTF" firstAttribute="leading" secondItem="3Ei-dP-Rgt" secondAttribute="trailing" constant="6" id="grd-XS-9Cc"/>
+                            <constraint firstAttribute="trailing" secondItem="zNa-a9-uTF" secondAttribute="trailing" constant="8" id="mAh-vG-BuU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="FLl-cg-Eeo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="0kH-Wk-eMw"/>
+                    <constraint firstItem="FLl-cg-Eeo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="KeV-7u-pUy"/>
+                    <constraint firstAttribute="trailing" secondItem="FLl-cg-Eeo" secondAttribute="trailing" constant="16" id="RtW-22-LSI"/>
+                    <constraint firstAttribute="bottom" secondItem="FLl-cg-Eeo" secondAttribute="bottom" constant="8" id="i0X-UD-ZDv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="descLabel" destination="NI4-Iv-yFd" id="2cH-0f-mfn"/>
+                <outlet property="personImageView" destination="3Ei-dP-Rgt" id="0fz-MI-NXl"/>
+                <outlet property="personView" destination="FLl-cg-Eeo" id="v3G-6B-dcb"/>
+                <outlet property="titleLabel" destination="zNa-a9-uTF" id="dW0-8N-Q3r"/>
+            </connections>
+            <point key="canvasLocation" x="-38.167938931297705" y="58.098591549295776"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="prabowo" width="400" height="300"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

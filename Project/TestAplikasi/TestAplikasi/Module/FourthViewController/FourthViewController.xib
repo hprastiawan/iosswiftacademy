@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FourthViewController" customModule="TestAplikasi" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="25h-rW-gKo" id="Cqb-l0-y7y"/>
+                <outlet property="dataPickerView" destination="mB7-HT-HAZ" id="0gz-4x-FQc"/>
+                <outlet property="descLabel" destination="Iby-l8-YyU" id="Lvu-fP-Z4W"/>
+                <outlet property="horizontalSlider" destination="JgI-7r-laI" id="b7N-Tr-yEd"/>
+                <outlet property="pickerView" destination="BZP-g5-ttx" id="J7D-ZJ-1Iv"/>
+                <outlet property="progressView" destination="mWF-4Y-TCc" id="Hxq-PL-lan"/>
+                <outlet property="stepper" destination="Rrk-b2-RbE" id="jbN-dQ-dNx"/>
+                <outlet property="switchBtn" destination="cMy-Au-Ptv" id="MwB-08-B79"/>
+                <outlet property="titleLabel" destination="lCQ-A9-Asz" id="ckj-PS-IHu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_product_image" translatesAutoresizingMaskIntoConstraints="NO" id="WOg-db-OZB">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="105"/>
+                </imageView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="1" maximumValueImage="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JgI-7r-laI">
+                    <rect key="frame" x="18" y="121" width="357" height="31"/>
+                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <imageReference key="minimumValueImage" image="square.and.arrow.up" catalog="system" symbolScale="medium"/>
+                </slider>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cMy-Au-Ptv">
+                    <rect key="frame" x="324" y="171" width="51" height="31"/>
+                </switch>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="25h-rW-gKo">
+                    <rect key="frame" x="186.66666666666666" y="428.66666666666669" width="20" height="20"/>
+                </activityIndicatorView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="mWF-4Y-TCc">
+                    <rect key="frame" x="20" y="222" width="353" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="U0B-6F-Ios"/>
+                    </constraints>
+                </progressView>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Rrk-b2-RbE">
+                    <rect key="frame" x="20" y="252" width="94" height="32"/>
+                </stepper>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZP-g5-ttx">
+                    <rect key="frame" x="60" y="304" width="273" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="7M1-LB-zeq"/>
+                    </constraints>
+                </pickerView>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="mB7-HT-HAZ">
+                    <rect key="frame" x="20" y="624" width="353" height="34.333333333333371"/>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCQ-A9-Asz">
+                    <rect key="frame" x="20" y="678.33333333333337" width="353" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iby-l8-YyU">
+                    <rect key="frame" x="20" y="718.66666666666663" width="353" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="JgI-7r-laI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="236-wJ-iuY"/>
+                <constraint firstItem="WOg-db-OZB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4fB-V7-DGw"/>
+                <constraint firstItem="mB7-HT-HAZ" firstAttribute="top" secondItem="BZP-g5-ttx" secondAttribute="bottom" constant="20" id="9rF-xY-Ctj"/>
+                <constraint firstItem="WOg-db-OZB" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.1234" id="B27-vc-5M2"/>
+                <constraint firstItem="Iby-l8-YyU" firstAttribute="top" secondItem="lCQ-A9-Asz" secondAttribute="bottom" constant="20" id="BIo-4o-Quu"/>
+                <constraint firstItem="cMy-Au-Ptv" firstAttribute="top" secondItem="JgI-7r-laI" secondAttribute="bottom" constant="20" id="C7F-lz-u0H"/>
+                <constraint firstItem="Iby-l8-YyU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="D7Y-sw-WiP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lCQ-A9-Asz" secondAttribute="trailing" constant="20" id="KH0-te-70A"/>
+                <constraint firstItem="mWF-4Y-TCc" firstAttribute="top" secondItem="cMy-Au-Ptv" secondAttribute="bottom" constant="20" id="NX5-J5-3Lk"/>
+                <constraint firstItem="BZP-g5-ttx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="PQl-uv-R9p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JgI-7r-laI" secondAttribute="trailing" constant="20" id="PRi-Xb-wWq"/>
+                <constraint firstItem="lCQ-A9-Asz" firstAttribute="top" secondItem="mB7-HT-HAZ" secondAttribute="bottom" constant="20" id="Pwn-8x-O9G"/>
+                <constraint firstItem="WOg-db-OZB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UJ4-OS-7gi"/>
+                <constraint firstItem="lCQ-A9-Asz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="VLd-j3-GGv"/>
+                <constraint firstItem="WOg-db-OZB" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Vsj-Ox-zay"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BZP-g5-ttx" secondAttribute="trailing" constant="60" id="bXG-tp-m7k"/>
+                <constraint firstItem="mWF-4Y-TCc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="bvj-eO-5QZ"/>
+                <constraint firstItem="BZP-g5-ttx" firstAttribute="top" secondItem="Rrk-b2-RbE" secondAttribute="bottom" constant="20" id="gjl-8N-iez"/>
+                <constraint firstItem="25h-rW-gKo" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="hSz-bl-yPk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cMy-Au-Ptv" secondAttribute="trailing" constant="20" id="kz8-6l-EKr"/>
+                <constraint firstItem="Rrk-b2-RbE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="lIQ-qR-DhW"/>
+                <constraint firstItem="JgI-7r-laI" firstAttribute="top" secondItem="WOg-db-OZB" secondAttribute="bottom" constant="16" id="lbb-k2-IgV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Iby-l8-YyU" secondAttribute="trailing" constant="20" id="nEz-6S-5YO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mWF-4Y-TCc" secondAttribute="trailing" constant="20" id="sD2-ug-sE3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mB7-HT-HAZ" secondAttribute="trailing" constant="20" id="tn4-cu-FUp"/>
+                <constraint firstItem="25h-rW-gKo" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="vLP-NA-wjo"/>
+                <constraint firstItem="Rrk-b2-RbE" firstAttribute="top" secondItem="mWF-4Y-TCc" secondAttribute="bottom" constant="20" id="xKi-cZ-BmS"/>
+                <constraint firstItem="mB7-HT-HAZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="zjK-rX-VG5"/>
+            </constraints>
+            <point key="canvasLocation" x="20.610687022900763" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="header_product_image" width="375" height="98"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
