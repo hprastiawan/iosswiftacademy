@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Day - 1A - Macros Swift'/>
+        <page name='Day - 1B - Type Casting'/>
+        <page name='Day - 2A - Nested Type'/>
+        <page name='Day - 2B - Extensions'/>
+        <page name='Day - 3A'/>
+        <page name='Day - 3B - Protocols'/>
+        <page name='Day - 4A -  Avanced Protocols'/>
+        <page name='Day - 4B - Generics'/>
+        <page name='Day - 5A - Advanced Generics'/>
+        <page name='Day - 5B - Assignment'/>
+    </pages>
+</playground>
