@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Day - 1A - Opaque and Boxed Types'/>
+        <page name='Day - 1B - Automatic Reference Counting'/>
+        <page name='Day - 2A - Advanced ARC'/>
+        <page name='Day - 2B - Memory Safety swift'/>
+        <page name='Day - 3A - Advance Memory Safety'/>
+        <page name='Day - 3B - Access Control'/>
+        <page name='Day - 4A - Advanced Access Control 1'/>
+        <page name='Day - 4B - Advanced Access Control 2'/>
+        <page name='Day - 5A - assignment #1'/>
+        <page name='Day - 5B  - assignment #2'/>
+    </pages>
+</playground>
