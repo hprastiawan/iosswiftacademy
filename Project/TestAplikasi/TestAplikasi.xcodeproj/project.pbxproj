@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,11 @@
 		FA0A269C2AF0933C00B4EB45 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A269A2AF0933C00B4EB45 /* FourthViewController.swift */; };
 		FA0A269D2AF0933C00B4EB45 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0A269B2AF0933C00B4EB45 /* FourthViewController.xib */; };
 		FA0A269F2AF0AB2300B4EB45 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A269E2AF0AB2300B4EB45 /* RoundedCornerView.swift */; };
+		FA17D8072BB2D376005AF288 /* MyPackage1 in Frameworks */ = {isa = PBXBuildFile; productRef = FA17D8062BB2D376005AF288 /* MyPackage1 */; };
+		FA17D80A2BB2D465005AF288 /* MyPackage1 in Frameworks */ = {isa = PBXBuildFile; productRef = FA17D8092BB2D465005AF288 /* MyPackage1 */; };
+		FA17D80D2BB2D751005AF288 /* MyLibraryContoh in Frameworks */ = {isa = PBXBuildFile; productRef = FA17D80C2BB2D751005AF288 /* MyLibraryContoh */; };
+		FA17D8102BB2F610005AF288 /* MyLibraryContoh in Frameworks */ = {isa = PBXBuildFile; productRef = FA17D80F2BB2F610005AF288 /* MyLibraryContoh */; };
+		FA17D8132BB2F633005AF288 /* MyLibraryContoh in Frameworks */ = {isa = PBXBuildFile; productRef = FA17D8122BB2F633005AF288 /* MyLibraryContoh */; };
 		FA4131D82BA2ED5200FD4C51 /* SuggestionMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4131D62BA2ED5200FD4C51 /* SuggestionMenuCell.swift */; };
 		FA4131D92BA2ED5200FD4C51 /* SuggestionMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4131D72BA2ED5200FD4C51 /* SuggestionMenuCell.xib */; };
 		FA4131DC2BA2EFFB00FD4C51 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4131DA2BA2EFFB00FD4C51 /* FoodCell.swift */; };
@@ -115,6 +120,7 @@
 		FA0A269A2AF0933C00B4EB45 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		FA0A269B2AF0933C00B4EB45 /* FourthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		FA0A269E2AF0AB2300B4EB45 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		FA17D8082BB2D43E005AF288 /* WWDC */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WWDC; path = "../../../Bootcamp/iOS-Materi/akademik/Project/WWDC"; sourceTree = "<group>"; };
 		FA4131D62BA2ED5200FD4C51 /* SuggestionMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionMenuCell.swift; sourceTree = "<group>"; };
 		FA4131D72BA2ED5200FD4C51 /* SuggestionMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionMenuCell.xib; sourceTree = "<group>"; };
 		FA4131DA2BA2EFFB00FD4C51 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
@@ -152,7 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFD17482B26CDA800A3676D /* MyLibrary in Frameworks */,
+				FA17D80A2BB2D465005AF288 /* MyPackage1 in Frameworks */,
+				FA17D8072BB2D376005AF288 /* MyPackage1 in Frameworks */,
+				FA17D8132BB2F633005AF288 /* MyLibraryContoh in Frameworks */,
 				32F7CE6A4D6A51AB955C1ABA /* Pods_TestAplikasi.framework in Frameworks */,
+				FA17D80D2BB2D751005AF288 /* MyLibraryContoh in Frameworks */,
+				FA17D8102BB2F610005AF288 /* MyLibraryContoh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +189,7 @@
 		0D244EE6E072472AEB757710 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA17D8082BB2D43E005AF288 /* WWDC */,
 				7AB8FF333105C1FC803ECA21 /* Pods_TestAplikasi.framework */,
 				C94A1A315A89E69E8C5B6AD1 /* Pods_TestAplikasi_TestAplikasiUITests.framework */,
 				975303D0007ADC1B84512B14 /* Pods_TestAplikasiTests.framework */,
@@ -455,6 +467,11 @@
 			name = TestAplikasi;
 			packageProductDependencies = (
 				FAFD17472B26CDA800A3676D /* MyLibrary */,
+				FA17D8062BB2D376005AF288 /* MyPackage1 */,
+				FA17D8092BB2D465005AF288 /* MyPackage1 */,
+				FA17D80C2BB2D751005AF288 /* MyLibraryContoh */,
+				FA17D80F2BB2F610005AF288 /* MyLibraryContoh */,
+				FA17D8122BB2F633005AF288 /* MyLibraryContoh */,
 			);
 			productName = TestAplikasi;
 			productReference = FAF870892AE8E42F00AA44F3 /* TestAplikasi.app */;
@@ -523,7 +540,7 @@
 				};
 			};
 			buildConfigurationList = FAF870842AE8E42F00AA44F3 /* Build configuration list for PBXProject "TestAplikasi" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -533,6 +550,9 @@
 			mainGroup = FAF870802AE8E42F00AA44F3;
 			packageReferences = (
 				FAFD17462B26CDA800A3676D /* XCRemoteSwiftPackageReference "MyTestSPM" */,
+				FA17D8052BB2D376005AF288 /* XCLocalSwiftPackageReference "../../../Bootcamp/iOS-Materi/akademik/Project/MyPackage1" */,
+				FA17D80E2BB2D880005AF288 /* XCLocalSwiftPackageReference "../../../Bootcamp/iOS-Materi/akademik/Project/WWDC" */,
+				FA17D8112BB2F633005AF288 /* XCRemoteSwiftPackageReference "MyLibraryContoh" */,
 			);
 			productRefGroup = FAF8708A2AE8E42F00AA44F3 /* Products */;
 			projectDirPath = "";
@@ -1063,7 +1083,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		FA17D8052BB2D376005AF288 /* XCLocalSwiftPackageReference "../../../Bootcamp/iOS-Materi/akademik/Project/MyPackage1" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Bootcamp/iOS-Materi/akademik/Project/MyPackage1";
+		};
+		FA17D80E2BB2D880005AF288 /* XCLocalSwiftPackageReference "../../../Bootcamp/iOS-Materi/akademik/Project/WWDC" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Bootcamp/iOS-Materi/akademik/Project/WWDC";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
+		FA17D8112BB2F633005AF288 /* XCRemoteSwiftPackageReference "MyLibraryContoh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lshinkuro/MyLibraryContoh";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		FAFD17462B26CDA800A3676D /* XCRemoteSwiftPackageReference "MyTestSPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lshinkuro/MyTestSPM.git";
@@ -1075,6 +1114,27 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FA17D8062BB2D376005AF288 /* MyPackage1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyPackage1;
+		};
+		FA17D8092BB2D465005AF288 /* MyPackage1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyPackage1;
+		};
+		FA17D80C2BB2D751005AF288 /* MyLibraryContoh */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibraryContoh;
+		};
+		FA17D80F2BB2F610005AF288 /* MyLibraryContoh */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibraryContoh;
+		};
+		FA17D8122BB2F633005AF288 /* MyLibraryContoh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA17D8112BB2F633005AF288 /* XCRemoteSwiftPackageReference "MyLibraryContoh" */;
+			productName = MyLibraryContoh;
+		};
 		FAFD17472B26CDA800A3676D /* MyLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FAFD17462B26CDA800A3676D /* XCRemoteSwiftPackageReference "MyTestSPM" */;

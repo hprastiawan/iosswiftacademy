@@ -120,6 +120,7 @@ extension MainTabBarController {
       self.tabBar.itemSpacing = 70
       self.tabBar.tintColor = UIColor.label
       self.tabBar.unselectedItemTintColor = UIColor.white
+      self.tabBar.isTranslucent = true
       self.tabBar.barTintColor = UIColor.clear
       self.tabBar.backgroundColor = UIColor.clear
 

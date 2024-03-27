@@ -21,7 +21,7 @@ class CustomAnnotation: NSObject, MKAnnotation {
     }
 }
 
-class FirstViewController: UIViewController {
+class FirstViewController: BaseViewController {
 
 
     @IBOutlet weak var datePicker: UIDatePicker!
@@ -41,6 +41,9 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         setup()
         setupLocation()
+        car.start()
+      
+
     }
 
     func setupLocation() {

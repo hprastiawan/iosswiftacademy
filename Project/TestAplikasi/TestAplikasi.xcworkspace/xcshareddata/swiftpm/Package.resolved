@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
+      "identity" : "mylibrarycontoh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lshinkuro/MyLibraryContoh",
+      "state" : {
+        "branch" : "main",
+        "revision" : "90fb23a8a347ddb97b7e30c12c7190bc67487c70"
+      }
+    },
+    {
       "identity" : "mytestspm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lshinkuro/MyTestSPM.git",
       "state" : {
         "branch" : "main",
         "revision" : "31f9af5f5a74685c07f74c3710577239687e7950"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
       }
     }
   ],

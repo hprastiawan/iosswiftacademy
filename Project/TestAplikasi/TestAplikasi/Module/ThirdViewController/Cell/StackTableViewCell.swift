@@ -34,11 +34,18 @@ class StackTableViewCell: UITableViewCell {
 
     @objc func tapButton() {
         viewBottom.isHidden.toggle()
+        if viewBottom.isHidden {
+          showViewButton.setImage(UIImage(systemName: "arrowtriangle.up.fill"), for: .normal)
+        } else {
+          showViewButton.setImage(UIImage(systemName: "arrowtriangle.down.fill"), for: .normal)
+        }
 
         // Notify the table view that updates are about to begin
         if let tableView = self.superview as? UITableView {
+          UIView.performWithoutAnimation {
             tableView.beginUpdates()
             tableView.endUpdates()
+          }
         }
 
 //        if let indexPath = tableView?.indexPath(for: self) {

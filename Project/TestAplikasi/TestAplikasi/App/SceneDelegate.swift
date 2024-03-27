@@ -21,7 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         window.makeKeyAndVisible()
         UINavigationBar.appearance().isHidden = true
-        
+      
+
 
     }
 

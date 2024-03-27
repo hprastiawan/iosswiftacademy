@@ -14,10 +14,12 @@ struct BaseConstant {
 }
 
 enum SFSymbols {
-    static let homeSymbol = UIImage(named: "pokemon-64")
-    static let orderSymbol = UIImage(named: "star-pokemon-48")
+    static let homeSymbol = UIImage(systemName: "suitcase.rolling")
+    static let orderSymbol = UIImage(systemName: "cross.case.circle")
 
-    static let arrowSymbol = UIImage(systemName: "arrow.right.circle.fill")
+    static let arrowSymbol = UIImage(systemName: "tent.circle.fill")
+    static let profileSymbol = UIImage(systemName: "person.fill")
+
     static let statusSymbol = UIImage(systemName: "circle.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 8, weight: .regular, scale: .default))
 }
 

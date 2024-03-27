@@ -65,7 +65,8 @@ class FourthViewController: UIViewController {
         let switchValue = sender.isOn
         if switchValue {
             descLabel.text = "The switch is ON"
-            setupProgressViewForLongTask()
+//            setupProgressViewForLongTask()
+            setupProgressDownloadTask()
         } else {
             setupProgressView()
             descLabel.text = "The switch is OFF"
@@ -75,7 +76,8 @@ class FourthViewController: UIViewController {
 
     // MARK: handle progress view
     func setupProgressView() {
-        progressView.setProgress(0.1, animated: true)
+        progressView.setProgress(0.0, animated: true)
+        progressView.layer.cornerRadius =  4
     }
 
     func setupProgressViewForLongTask() {
@@ -94,6 +96,26 @@ class FourthViewController: UIViewController {
         }
     }
 
+
+  func setupProgressDownloadTask() {
+      // Inside your long-running task or operation
+      let totalBytes: Float = 100 // Total bytes to be downloaded
+      var downloadedBytes: Float = 0 // Current bytes downloaded
+
+      while downloadedBytes <= totalBytes {
+              // Update UI on the main thread
+              DispatchQueue.main.async {
+                  let progress = Float(downloadedBytes) / Float(totalBytes)
+                  self.progressView.setProgress(progress, animated: true)
+//                  self.progressLabel.text = "\(Int(progress * 100))%"
+              }
+
+              // Simulate download time
+              usleep(100000) // Sleep for 0.1 seconds (100000 microseconds)
+
+              downloadedBytes += 5
+          }
+    }
 
     func setupPickerView() {
         hours.append(contentsOf: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"])

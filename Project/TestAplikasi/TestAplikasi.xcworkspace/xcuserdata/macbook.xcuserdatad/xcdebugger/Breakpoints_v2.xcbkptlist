@@ -39,38 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D86C595E-26EC-4621-A5CF-34BC1CA22BFB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestAplikasi/Module/MainTabBar/MainTabBarViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "tabBarController(_:shouldSelect:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E2A5C9EC-7865-4A76-A430-9BCF52560BA2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestAplikasi/Module/MainTabBar/MainTabBarViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "tabBarController(_:shouldSelect:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "857D492C-53F3-418E-A7A9-D3660BFC054D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -78,40 +46,40 @@
             filePath = "TestAplikasi/Module/ThirdViewController/ThirdViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "didTapMenu(data:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "857D492C-53F3-418E-A7A9-D3660BFC054D - c69142f5a4f541e2"
+                  uuid = "857D492C-53F3-418E-A7A9-D3660BFC054D - 10aedbc1293524b1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.String) -&gt; () in TestAplikasi.ThirdViewController.didTapMenu(data: TestAplikasi.Person) -&gt; ()"
                   moduleName = "TestAplikasi"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbook/Documents/Bootcamp/iOS-Materi/akademik/TestAplikasi/TestAplikasi/Module/ThirdViewController/ThirdViewController.swift"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/TestAplikasi/TestAplikasi/Module/ThirdViewController/ThirdViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "126"
-                  endingLineNumber = "126"
-                  offsetFromSymbolStart = "228">
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "256">
                </Location>
                <Location
-                  uuid = "857D492C-53F3-418E-A7A9-D3660BFC054D - c69142f5a4f541e2"
+                  uuid = "857D492C-53F3-418E-A7A9-D3660BFC054D - 10aedbc1293524b1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.String) -&gt; () in TestAplikasi.ThirdViewController.didTapMenu(data: TestAplikasi.Person) -&gt; ()"
                   moduleName = "TestAplikasi"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbook/Documents/Bootcamp/iOS-Materi/akademik/TestAplikasi/TestAplikasi/Module/ThirdViewController/ThirdViewController.swift"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/TestAplikasi/TestAplikasi/Module/ThirdViewController/ThirdViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "126"
-                  endingLineNumber = "126"
-                  offsetFromSymbolStart = "528">
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "604">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -126,10 +94,106 @@
             filePath = "TestAplikasi/Module/ThirdViewController/ThirdViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "updateCellHeight(indexPath:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3703083-ABDA-4EE4-AE63-5B3026F963B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAplikasi/Module/ThirdViewController/Cell/StackTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "tapButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3703083-ABDA-4EE4-AE63-5B3026F963B5 - 64c70ecdd9942d14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAplikasi.StackTableViewCell.tapButton() -&gt; ()"
+                  moduleName = "TestAplikasi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/TestAplikasi/TestAplikasi/Module/ThirdViewController/Cell/StackTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "F3703083-ABDA-4EE4-AE63-5B3026F963B5 - 64c70ecdd9942d14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAplikasi.StackTableViewCell.tapButton() -&gt; ()"
+                  moduleName = "TestAplikasi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/TestAplikasi/TestAplikasi/Module/ThirdViewController/Cell/StackTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D809F5D0-EFE4-4124-B2C7-9078F2A6EDCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAplikasi/Module/ThirdViewController/Cell/StackTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "tapButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D809F5D0-EFE4-4124-B2C7-9078F2A6EDCD - 64c70ecdd9942d56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAplikasi.StackTableViewCell.tapButton() -&gt; ()"
+                  moduleName = "TestAplikasi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/TestAplikasi/TestAplikasi/Module/ThirdViewController/Cell/StackTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "756">
+               </Location>
+               <Location
+                  uuid = "D809F5D0-EFE4-4124-B2C7-9078F2A6EDCD - 64c70ecdd9942d56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAplikasi.StackTableViewCell.tapButton() -&gt; ()"
+                  moduleName = "TestAplikasi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/TestAplikasi/TestAplikasi/Module/ThirdViewController/Cell/StackTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "788">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

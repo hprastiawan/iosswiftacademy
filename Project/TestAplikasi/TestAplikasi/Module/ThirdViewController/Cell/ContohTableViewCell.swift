@@ -26,7 +26,7 @@ class ContohTableViewCell: BaseTableViewCell {
 
     func setup() {
         containerView.makeCornerRadius(20, maskedCorner: [.layerMaxXMaxYCorner, .layerMaxXMinYCorner])
-        containerView.addShadow()
+//        containerView.addShadow()
     }
     
 }
