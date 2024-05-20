@@ -13,6 +13,7 @@ class ListItemCell: UITableViewCell {
   @IBOutlet weak var labelView: UIView!
   @IBOutlet weak var subItemLabel: UILabel!
 
+
   override func awakeFromNib() {
     super.awakeFromNib()
     setupView()

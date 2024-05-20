@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4CECE9D63E2272AFFD507558 /* Pods_ProjectPertama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F2EB4F957427CC1B4ECD1F /* Pods_ProjectPertama.framework */; };
+		FA0CC92C2BD8CC6D007E4F88 /* ExampleClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC92B2BD8CC6D007E4F88 /* ExampleClosureViewController.swift */; };
+		FA0CC92F2BD8E419007E4F88 /* ExampleNotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC92D2BD8E419007E4F88 /* ExampleNotificationCenterViewController.swift */; };
+		FA0CC9302BD8E419007E4F88 /* ExampleNotificationCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC92E2BD8E419007E4F88 /* ExampleNotificationCenterViewController.xib */; };
+		FA0CC9342BDA2B8F007E4F88 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC9332BDA2B8F007E4F88 /* CircleView.swift */; };
+		FA0CC9362BDA2C18007E4F88 /* AnimatedCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC9352BDA2C18007E4F88 /* AnimatedCircleViewController.swift */; };
+		FA0CC9382BDA434B007E4F88 /* Mastering-Swift-Swift-programming-language.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC9372BDA434B007E4F88 /* Mastering-Swift-Swift-programming-language.pdf */; };
+		FA0CC93C2BDA45D5007E4F88 /* ExamplePDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC93A2BDA45D5007E4F88 /* ExamplePDFKitViewController.swift */; };
+		FA0CC93D2BDA45D5007E4F88 /* ExamplePDFKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC93B2BDA45D5007E4F88 /* ExamplePDFKitViewController.xib */; };
+		FA0CC9402BDBA841007E4F88 /* ExampleLogicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC93F2BDBA841007E4F88 /* ExampleLogicViewController.swift */; };
 		FA1F3FB22B58C83500B44459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F3FB12B58C83500B44459 /* AppDelegate.swift */; };
 		FA1F3FB42B58C83500B44459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F3FB32B58C83500B44459 /* SceneDelegate.swift */; };
 		FA1F3FBC2B58C83500B44459 /* ProjectPertama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1F3FBA2B58C83500B44459 /* ProjectPertama.xcdatamodeld */; };
@@ -72,6 +81,30 @@
 		FA5B26272B85E69600B3C9D1 /* ExampleURLSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B26252B85E69600B3C9D1 /* ExampleURLSessionViewController.xib */; };
 		FA5B262B2B85EC9500B3C9D1 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B26292B85EC9500B3C9D1 /* ArticleTableViewCell.swift */; };
 		FA5B262C2B85EC9500B3C9D1 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B262A2B85EC9500B3C9D1 /* ArticleTableViewCell.xib */; };
+		FA6D0A152BDF4ADF00730D5D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A082BDF4ADE00730D5D /* OpenSans-Bold.ttf */; };
+		FA6D0A162BDF4ADF00730D5D /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A092BDF4ADE00730D5D /* OpenSans-ExtraBoldItalic.ttf */; };
+		FA6D0A172BDF4ADF00730D5D /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A0A2BDF4ADE00730D5D /* OpenSans-SemiBold.ttf */; };
+		FA6D0A182BDF4ADF00730D5D /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A0B2BDF4ADE00730D5D /* OpenSans-BoldItalic.ttf */; };
+		FA6D0A192BDF4ADF00730D5D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A0C2BDF4ADE00730D5D /* OpenSans-Regular.ttf */; };
+		FA6D0A1A2BDF4ADF00730D5D /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A0D2BDF4ADE00730D5D /* OpenSans-CondLight.ttf */; };
+		FA6D0A1B2BDF4ADF00730D5D /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A0E2BDF4ADE00730D5D /* OpenSans-Light.ttf */; };
+		FA6D0A1C2BDF4ADF00730D5D /* OpenSans-CondLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A0F2BDF4ADE00730D5D /* OpenSans-CondLightItalic.ttf */; };
+		FA6D0A1D2BDF4ADF00730D5D /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A102BDF4ADE00730D5D /* OpenSans-SemiBoldItalic.ttf */; };
+		FA6D0A1E2BDF4ADF00730D5D /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A112BDF4ADE00730D5D /* OpenSans-ExtraBold.ttf */; };
+		FA6D0A1F2BDF4ADF00730D5D /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A122BDF4ADE00730D5D /* OpenSans-CondBold.ttf */; };
+		FA6D0A202BDF4ADF00730D5D /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A132BDF4ADE00730D5D /* OpenSans-Italic.ttf */; };
+		FA6D0A212BDF4ADF00730D5D /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A142BDF4ADE00730D5D /* OpenSans-LightItalic.ttf */; };
+		FA6D0A232BDF4C9600730D5D /* ExtUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A222BDF4C9600730D5D /* ExtUIFont.swift */; };
+		FA6D0A252BE4979A00730D5D /* ExtUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A242BE4979A00730D5D /* ExtUINavigationController.swift */; };
+		FA6D0A292BE52E7500730D5D /* SimpleSkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A272BE52E7500730D5D /* SimpleSkeletonCell.swift */; };
+		FA6D0A2A2BE52E7500730D5D /* SimpleSkeletonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A282BE52E7500730D5D /* SimpleSkeletonCell.xib */; };
+		FA6D0A302BE543C800730D5D /* ExmpleSkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A2E2BE543C800730D5D /* ExmpleSkeletonViewController.swift */; };
+		FA6D0A312BE543C800730D5D /* ExmpleSkeletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A2F2BE543C800730D5D /* ExmpleSkeletonViewController.xib */; };
+		FA6D0A352BE553BA00730D5D /* ExampleSkelotonTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A332BE553BA00730D5D /* ExampleSkelotonTableViewViewController.swift */; };
+		FA6D0A362BE553BA00730D5D /* ExampleSkelotonTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A342BE553BA00730D5D /* ExampleSkelotonTableViewViewController.xib */; };
+		FA6D0A3A2BE5543700730D5D /* TestSkelotonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A382BE5543700730D5D /* TestSkelotonTableViewCell.swift */; };
+		FA6D0A3B2BE5543700730D5D /* TestSkelotonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6D0A392BE5543700730D5D /* TestSkelotonTableViewCell.xib */; };
+		FA6D0A3E2BF4C0C400730D5D /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D0A3D2BF4C0C400730D5D /* BaseTableView.swift */; };
 		FA9B6CBE2B7F5B7F00621232 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9B6CBD2B7F5B7F00621232 /* MainTabBarController.swift */; };
 		FA9B6CC72B7F60AD00621232 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9B6CC52B7F60AD00621232 /* SecondViewController.swift */; };
 		FA9B6CC82B7F60AD00621232 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9B6CC62B7F60AD00621232 /* SecondViewController.xib */; };
@@ -124,7 +157,17 @@
 /* Begin PBXFileReference section */
 		63812FD292AB424FA5093DF8 /* Pods-ProjectPertama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPertama.release.xcconfig"; path = "Target Support Files/Pods-ProjectPertama/Pods-ProjectPertama.release.xcconfig"; sourceTree = "<group>"; };
 		84F2EB4F957427CC1B4ECD1F /* Pods_ProjectPertama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectPertama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F0965807E04D27CBD5295A /* Pods-ProjectPertama.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPertama.qa.xcconfig"; path = "Target Support Files/Pods-ProjectPertama/Pods-ProjectPertama.qa.xcconfig"; sourceTree = "<group>"; };
 		D3D20A4959C85FC8096E9121 /* Pods-ProjectPertama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectPertama.debug.xcconfig"; path = "Target Support Files/Pods-ProjectPertama/Pods-ProjectPertama.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0CC92B2BD8CC6D007E4F88 /* ExampleClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClosureViewController.swift; sourceTree = "<group>"; };
+		FA0CC92D2BD8E419007E4F88 /* ExampleNotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNotificationCenterViewController.swift; sourceTree = "<group>"; };
+		FA0CC92E2BD8E419007E4F88 /* ExampleNotificationCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleNotificationCenterViewController.xib; sourceTree = "<group>"; };
+		FA0CC9332BDA2B8F007E4F88 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		FA0CC9352BDA2C18007E4F88 /* AnimatedCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircleViewController.swift; sourceTree = "<group>"; };
+		FA0CC9372BDA434B007E4F88 /* Mastering-Swift-Swift-programming-language.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mastering-Swift-Swift-programming-language.pdf"; sourceTree = "<group>"; };
+		FA0CC93A2BDA45D5007E4F88 /* ExamplePDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePDFKitViewController.swift; sourceTree = "<group>"; };
+		FA0CC93B2BDA45D5007E4F88 /* ExamplePDFKitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExamplePDFKitViewController.xib; sourceTree = "<group>"; };
+		FA0CC93F2BDBA841007E4F88 /* ExampleLogicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLogicViewController.swift; sourceTree = "<group>"; };
 		FA1F3FAE2B58C83500B44459 /* ProjectPertama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectPertama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1F3FB12B58C83500B44459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA1F3FB32B58C83500B44459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +237,30 @@
 		FA5B26252B85E69600B3C9D1 /* ExampleURLSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleURLSessionViewController.xib; sourceTree = "<group>"; };
 		FA5B26292B85EC9500B3C9D1 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		FA5B262A2B85EC9500B3C9D1 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		FA6D0A082BDF4ADE00730D5D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		FA6D0A092BDF4ADE00730D5D /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA6D0A0A2BDF4ADE00730D5D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiBold.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA6D0A0B2BDF4ADE00730D5D /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FA6D0A0C2BDF4ADE00730D5D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		FA6D0A0D2BDF4ADE00730D5D /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLight.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
+		FA6D0A0E2BDF4ADE00730D5D /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		FA6D0A0F2BDF4ADE00730D5D /* OpenSans-CondLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLightItalic.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-CondLightItalic.ttf"; sourceTree = "<group>"; };
+		FA6D0A102BDF4ADE00730D5D /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiBoldItalic.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA6D0A112BDF4ADE00730D5D /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FA6D0A122BDF4ADE00730D5D /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondBold.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
+		FA6D0A132BDF4ADE00730D5D /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		FA6D0A142BDF4ADE00730D5D /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "../../../../../../Swift/OM-BARU-baru/New Octo Mobile/Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		FA6D0A222BDF4C9600730D5D /* ExtUIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIFont.swift; sourceTree = "<group>"; };
+		FA6D0A242BE4979A00730D5D /* ExtUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUINavigationController.swift; sourceTree = "<group>"; };
+		FA6D0A272BE52E7500730D5D /* SimpleSkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSkeletonCell.swift; sourceTree = "<group>"; };
+		FA6D0A282BE52E7500730D5D /* SimpleSkeletonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleSkeletonCell.xib; sourceTree = "<group>"; };
+		FA6D0A2E2BE543C800730D5D /* ExmpleSkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExmpleSkeletonViewController.swift; sourceTree = "<group>"; };
+		FA6D0A2F2BE543C800730D5D /* ExmpleSkeletonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExmpleSkeletonViewController.xib; sourceTree = "<group>"; };
+		FA6D0A332BE553BA00730D5D /* ExampleSkelotonTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSkelotonTableViewViewController.swift; sourceTree = "<group>"; };
+		FA6D0A342BE553BA00730D5D /* ExampleSkelotonTableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleSkelotonTableViewViewController.xib; sourceTree = "<group>"; };
+		FA6D0A382BE5543700730D5D /* TestSkelotonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSkelotonTableViewCell.swift; sourceTree = "<group>"; };
+		FA6D0A392BE5543700730D5D /* TestSkelotonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestSkelotonTableViewCell.xib; sourceTree = "<group>"; };
+		FA6D0A3D2BF4C0C400730D5D /* BaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
 		FA9B6CBD2B7F5B7F00621232 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		FA9B6CC52B7F60AD00621232 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FA9B6CC62B7F60AD00621232 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -259,6 +326,7 @@
 			children = (
 				D3D20A4959C85FC8096E9121 /* Pods-ProjectPertama.debug.xcconfig */,
 				63812FD292AB424FA5093DF8 /* Pods-ProjectPertama.release.xcconfig */,
+				C7F0965807E04D27CBD5295A /* Pods-ProjectPertama.qa.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -271,6 +339,51 @@
 				84F2EB4F957427CC1B4ECD1F /* Pods_ProjectPertama.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0CC9292BD8CC47007E4F88 /* ExampleClosure */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC92A2BD8CC51007E4F88 /* Closure */,
+			);
+			path = ExampleClosure;
+			sourceTree = "<group>";
+		};
+		FA0CC92A2BD8CC51007E4F88 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC92B2BD8CC6D007E4F88 /* ExampleClosureViewController.swift */,
+				FA0CC92D2BD8E419007E4F88 /* ExampleNotificationCenterViewController.swift */,
+				FA0CC92E2BD8E419007E4F88 /* ExampleNotificationCenterViewController.xib */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		FA0CC9322BDA2B7D007E4F88 /* ExampleCoreGraphic */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC9332BDA2B8F007E4F88 /* CircleView.swift */,
+				FA0CC9352BDA2C18007E4F88 /* AnimatedCircleViewController.swift */,
+			);
+			path = ExampleCoreGraphic;
+			sourceTree = "<group>";
+		};
+		FA0CC9392BDA45C0007E4F88 /* ExamplePDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC9372BDA434B007E4F88 /* Mastering-Swift-Swift-programming-language.pdf */,
+				FA0CC93A2BDA45D5007E4F88 /* ExamplePDFKitViewController.swift */,
+				FA0CC93B2BDA45D5007E4F88 /* ExamplePDFKitViewController.xib */,
+			);
+			path = ExamplePDFKit;
+			sourceTree = "<group>";
+		};
+		FA0CC93E2BDBA827007E4F88 /* ExampleLogic */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC93F2BDBA841007E4F88 /* ExampleLogicViewController.swift */,
+			);
+			path = ExampleLogic;
 			sourceTree = "<group>";
 		};
 		FA1F3FA52B58C83500B44459 = {
@@ -298,6 +411,7 @@
 		FA1F3FB02B58C83500B44459 /* ProjectPertama */ = {
 			isa = PBXGroup;
 			children = (
+				FA6D0A062BDF3FBB00730D5D /* Reseource */,
 				FA3D51B72B95BBE400FDF032 /* *.google.com.cer */,
 				FA9B6CBF2B7F5DCE00621232 /* App */,
 				FA5B26202B85E60E00B3C9D1 /* Network */,
@@ -305,11 +419,7 @@
 				FA5B25EF2B833BB800B3C9D1 /* Extension */,
 				FA9B6CCE2B808FAE00621232 /* Component */,
 				FA9B6CC02B7F608600621232 /* Module */,
-				FA1F3FBD2B58C83A00B44459 /* Assets.xcassets */,
-				FA1F3FBF2B58C83A00B44459 /* LaunchScreen.storyboard */,
 				FA1F3FC22B58C83A00B44459 /* Info.plist */,
-				FA1F3FBA2B58C83500B44459 /* ProjectPertama.xcdatamodeld */,
-				FA3D51FB2B97895600FDF032 /* config.yaml */,
 			);
 			path = ProjectPertama;
 			sourceTree = "<group>";
@@ -380,7 +490,6 @@
 			isa = PBXGroup;
 			children = (
 				FA4131E52BA41D2D00FD4C51 /* LoginV2ViewController.swift */,
-				FA4131E72BA4232500FD4C51 /* CommonPreviews.swift */,
 			);
 			path = V2;
 			sourceTree = "<group>";
@@ -413,6 +522,8 @@
 				FA5B25F02B833BCB00B3C9D1 /* ExtTableView.swift */,
 				FA5B26062B83A56300B3C9D1 /* ExtUIView.swift */,
 				FA4131E22BA41BD600FD4C51 /* ExtString.swift */,
+				FA6D0A222BDF4C9600730D5D /* ExtUIFont.swift */,
+				FA6D0A242BE4979A00730D5D /* ExtUINavigationController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -458,10 +569,12 @@
 		FA5B26102B844C7100B3C9D1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FA4131E72BA4232500FD4C51 /* CommonPreviews.swift */,
 				FA5B26112B844C8800B3C9D1 /* AppSettings.swift */,
 				FA5B26132B84698E00B3C9D1 /* KeychainManager.swift */,
 				FA5B26152B84747100B3C9D1 /* CoreDataHelper.swift */,
 				FA3D51A72B91C6DD00FDF032 /* AppEncrypted.swift */,
+				FA6D0A3D2BF4C0C400730D5D /* BaseTableView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -527,6 +640,76 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		FA6D0A062BDF3FBB00730D5D /* Reseource */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D0A072BDF3FDA00730D5D /* Fonts */,
+				FA1F3FBD2B58C83A00B44459 /* Assets.xcassets */,
+				FA3D51FB2B97895600FDF032 /* config.yaml */,
+				FA1F3FBF2B58C83A00B44459 /* LaunchScreen.storyboard */,
+				FA1F3FBA2B58C83500B44459 /* ProjectPertama.xcdatamodeld */,
+			);
+			path = Reseource;
+			sourceTree = "<group>";
+		};
+		FA6D0A072BDF3FDA00730D5D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D0A082BDF4ADE00730D5D /* OpenSans-Bold.ttf */,
+				FA6D0A0B2BDF4ADE00730D5D /* OpenSans-BoldItalic.ttf */,
+				FA6D0A122BDF4ADE00730D5D /* OpenSans-CondBold.ttf */,
+				FA6D0A0D2BDF4ADE00730D5D /* OpenSans-CondLight.ttf */,
+				FA6D0A0F2BDF4ADE00730D5D /* OpenSans-CondLightItalic.ttf */,
+				FA6D0A112BDF4ADE00730D5D /* OpenSans-ExtraBold.ttf */,
+				FA6D0A092BDF4ADE00730D5D /* OpenSans-ExtraBoldItalic.ttf */,
+				FA6D0A132BDF4ADE00730D5D /* OpenSans-Italic.ttf */,
+				FA6D0A0E2BDF4ADE00730D5D /* OpenSans-Light.ttf */,
+				FA6D0A142BDF4ADE00730D5D /* OpenSans-LightItalic.ttf */,
+				FA6D0A0C2BDF4ADE00730D5D /* OpenSans-Regular.ttf */,
+				FA6D0A0A2BDF4ADE00730D5D /* OpenSans-SemiBold.ttf */,
+				FA6D0A102BDF4ADE00730D5D /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA6D0A262BE52E5800730D5D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D0A272BE52E7500730D5D /* SimpleSkeletonCell.swift */,
+				FA6D0A282BE52E7500730D5D /* SimpleSkeletonCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA6D0A2B2BE5438B00730D5D /* ExampleSkeletonView */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D0A322BE5538F00730D5D /* ExampleTableViewSkeloton */,
+				FA6D0A2E2BE543C800730D5D /* ExmpleSkeletonViewController.swift */,
+				FA6D0A2F2BE543C800730D5D /* ExmpleSkeletonViewController.xib */,
+			);
+			path = ExampleSkeletonView;
+			sourceTree = "<group>";
+		};
+		FA6D0A322BE5538F00730D5D /* ExampleTableViewSkeloton */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D0A372BE5541D00730D5D /* Cell */,
+				FA6D0A332BE553BA00730D5D /* ExampleSkelotonTableViewViewController.swift */,
+				FA6D0A342BE553BA00730D5D /* ExampleSkelotonTableViewViewController.xib */,
+			);
+			path = ExampleTableViewSkeloton;
+			sourceTree = "<group>";
+		};
+		FA6D0A372BE5541D00730D5D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D0A382BE5543700730D5D /* TestSkelotonTableViewCell.swift */,
+				FA6D0A392BE5543700730D5D /* TestSkelotonTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		FA9B6CBF2B7F5DCE00621232 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +722,11 @@
 		FA9B6CC02B7F608600621232 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				FA6D0A2B2BE5438B00730D5D /* ExampleSkeletonView */,
+				FA0CC93E2BDBA827007E4F88 /* ExampleLogic */,
+				FA0CC9392BDA45C0007E4F88 /* ExamplePDFKit */,
+				FA0CC9322BDA2B7D007E4F88 /* ExampleCoreGraphic */,
+				FA0CC9292BD8CC47007E4F88 /* ExampleClosure */,
 				FA4131EF2BA7356500FD4C51 /* ExampleCoreData */,
 				FA3D51A92B95959D00FDF032 /* ExampleCryptoKit */,
 				FA3D51982B90972A00FDF032 /* ExampleAVFoundation */,
@@ -667,6 +855,7 @@
 		FAC482882B8B8375003E5CAE /* UserListMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				FA6D0A262BE52E5800730D5D /* Cell */,
 				FAC482892B8B8394003E5CAE /* UserListViewController.swift */,
 				FAC4828A2B8B8394003E5CAE /* UserListViewController.xib */,
 				FAC4828D2B8B83AA003E5CAE /* UserListViewModel.swift */,
@@ -792,30 +981,50 @@
 			files = (
 				FA5B262C2B85EC9500B3C9D1 /* ArticleTableViewCell.xib in Resources */,
 				FAC482852B8B240C003E5CAE /* ExampleBehaviourRelayViewController.xib in Resources */,
+				FA6D0A3B2BE5543700730D5D /* TestSkelotonTableViewCell.xib in Resources */,
+				FA6D0A2A2BE52E7500730D5D /* SimpleSkeletonCell.xib in Resources */,
 				FA4131F32BA735B100FD4C51 /* ExampleCoreDataViewController.xib in Resources */,
+				FA6D0A1D2BDF4ADF00730D5D /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				FAC482942B8D8D54003E5CAE /* ExampleAnimationViewController.xib in Resources */,
 				FA5B26272B85E69600B3C9D1 /* ExampleURLSessionViewController.xib in Resources */,
 				FA5B261C2B84AE5800B3C9D1 /* ProfileViewController.xib in Resources */,
 				FA5B25FA2B8364EE00B3C9D1 /* DashboardGridViewController.xib in Resources */,
+				FA6D0A162BDF4ADF00730D5D /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				FA6D0A1C2BDF4ADF00730D5D /* OpenSans-CondLightItalic.ttf in Resources */,
 				FA5B25F52B8349C400B3C9D1 /* PersonListCell.xib in Resources */,
 				FAC482742B892768003E5CAE /* ExampleMultithreadingViewController.xib in Resources */,
+				FA6D0A312BE543C800730D5D /* ExmpleSkeletonViewController.xib in Resources */,
+				FA6D0A192BDF4ADF00730D5D /* OpenSans-Regular.ttf in Resources */,
+				FA0CC93D2BDA45D5007E4F88 /* ExamplePDFKitViewController.xib in Resources */,
 				FAC4828C2B8B8394003E5CAE /* UserListViewController.xib in Resources */,
 				FAC482812B8B1E9B003E5CAE /* ExamplePublishRelayViewController.xib in Resources */,
+				FA6D0A1A2BDF4ADF00730D5D /* OpenSans-CondLight.ttf in Resources */,
+				FA6D0A172BDF4ADF00730D5D /* OpenSans-SemiBold.ttf in Resources */,
+				FA6D0A1B2BDF4ADF00730D5D /* OpenSans-Light.ttf in Resources */,
+				FA6D0A1E2BDF4ADF00730D5D /* OpenSans-ExtraBold.ttf in Resources */,
 				FA9B6CE02B83266700621232 /* LoginViewController.xib in Resources */,
 				FA1F3FC12B58C83A00B44459 /* LaunchScreen.storyboard in Resources */,
+				FA6D0A1F2BDF4ADF00730D5D /* OpenSans-CondBold.ttf in Resources */,
 				FA3D51A22B9097CE00FDF032 /* ItemPlayListMusicCell.xib in Resources */,
 				FA5B25EE2B8336EE00B3C9D1 /* ListItemCell.xib in Resources */,
+				FA0CC9302BD8E419007E4F88 /* ExampleNotificationCenterViewController.xib in Resources */,
 				FA1F3FBE2B58C83A00B44459 /* Assets.xcassets in Resources */,
+				FA6D0A202BDF4ADF00730D5D /* OpenSans-Italic.ttf in Resources */,
+				FA6D0A152BDF4ADF00730D5D /* OpenSans-Bold.ttf in Resources */,
 				FA5B25E92B8332A100B3C9D1 /* DashboardViewController.xib in Resources */,
+				FA6D0A212BDF4ADF00730D5D /* OpenSans-LightItalic.ttf in Resources */,
 				FA3D51AD2B9595C400FDF032 /* ExampleCyptoKitViewController.xib in Resources */,
 				FA9B6CCD2B80704400621232 /* GestureImplementationViewController.xib in Resources */,
+				FA6D0A182BDF4ADF00730D5D /* OpenSans-BoldItalic.ttf in Resources */,
 				FA31B7AA2B7F566F00894D98 /* ThirdViewController.xib in Resources */,
 				FA5B25FF2B83656400B3C9D1 /* ImageListCell.xib in Resources */,
 				FA3D519C2B90974600FDF032 /* ExampleAudioPlayerViewController.xib in Resources */,
 				FA5B260F2B844C5D00B3C9D1 /* ExampleUserDefaultsViewController.xib in Resources */,
+				FA0CC9382BDA434B007E4F88 /* Mastering-Swift-Swift-programming-language.pdf in Resources */,
 				FA9B6CD32B80904900621232 /* InputField.xib in Resources */,
 				FAC4827D2B8B0CBB003E5CAE /* ExampleRxSwiftViewController.xib in Resources */,
 				FA3D51B82B95BBE400FDF032 /* *.google.com.cer in Resources */,
+				FA6D0A362BE553BA00730D5D /* ExampleSkelotonTableViewViewController.xib in Resources */,
 				FA9B6CC82B7F60AD00621232 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -884,8 +1093,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3D51B52B95BB3300FDF032 /* SSLManager.swift in Sources */,
+				FA0CC9362BDA2C18007E4F88 /* AnimatedCircleViewController.swift in Sources */,
 				FA5B261F2B84B4A700B3C9D1 /* FormView.swift in Sources */,
 				FA5B26222B85E61F00B3C9D1 /* ApiManager.swift in Sources */,
+				FA0CC92C2BD8CC6D007E4F88 /* ExampleClosureViewController.swift in Sources */,
 				FA4131EA2BA42C0E00FD4C51 /* InputFieldSnapKit.swift in Sources */,
 				FA3D51A12B9097CE00FDF032 /* ItemPlayListMusicCell.swift in Sources */,
 				FA3D51B32B95A58600FDF032 /* AESCrypto.swift in Sources */,
@@ -903,24 +1114,33 @@
 				FA1F3FBC2B58C83500B44459 /* ProjectPertama.xcdatamodeld in Sources */,
 				FA4131E82BA4232500FD4C51 /* CommonPreviews.swift in Sources */,
 				FAC482902B8B83BC003E5CAE /* UserListModel.swift in Sources */,
+				FA0CC9342BDA2B8F007E4F88 /* CircleView.swift in Sources */,
 				FA5B26072B83A56300B3C9D1 /* ExtUIView.swift in Sources */,
 				FA9B6CD12B808FCD00621232 /* InputField.swift in Sources */,
 				FA3D51A82B91C6DD00FDF032 /* AppEncrypted.swift in Sources */,
 				FA5B26262B85E69600B3C9D1 /* ExampleURLSessionViewController.swift in Sources */,
 				FA5B25ED2B8336EE00B3C9D1 /* ListItemCell.swift in Sources */,
 				FAC482622B872811003E5CAE /* NetworkManager.swift in Sources */,
+				FA0CC92F2BD8E419007E4F88 /* ExampleNotificationCenterViewController.swift in Sources */,
+				FA6D0A232BDF4C9600730D5D /* ExtUIFont.swift in Sources */,
+				FA0CC93C2BDA45D5007E4F88 /* ExamplePDFKitViewController.swift in Sources */,
 				FA3D51902B8ECC1000FDF032 /* ExampleAutoLayoutViewController.swift in Sources */,
 				FAC4827C2B8B0CBB003E5CAE /* ExampleRxSwiftViewController.swift in Sources */,
 				FA3D51972B8EE90D00FDF032 /* ExampleSnapkitViewController.swift in Sources */,
 				FA1F3FB22B58C83500B44459 /* AppDelegate.swift in Sources */,
+				FA6D0A352BE553BA00730D5D /* ExampleSkelotonTableViewViewController.swift in Sources */,
 				FA5B26032B839FAD00B3C9D1 /* FoodListCell.swift in Sources */,
+				FA6D0A3A2BE5543700730D5D /* TestSkelotonTableViewCell.swift in Sources */,
 				FA5B25F42B8349C400B3C9D1 /* PersonListCell.swift in Sources */,
 				FA4131E62BA41D2D00FD4C51 /* LoginV2ViewController.swift in Sources */,
+				FA6D0A252BE4979A00730D5D /* ExtUINavigationController.swift in Sources */,
 				FA5B260A2B83B42900B3C9D1 /* FilterHeaderView.swift in Sources */,
 				FA3D51B12B95A15F00FDF032 /* CommonCryptoManager.swift in Sources */,
 				FA4131E32BA41BD600FD4C51 /* ExtString.swift in Sources */,
+				FA6D0A292BE52E7500730D5D /* SimpleSkeletonCell.swift in Sources */,
 				FA3D519E2B90975600FDF032 /* AudioPlayer.swift in Sources */,
 				FAC482662B872923003E5CAE /* BaseConstant.swift in Sources */,
+				FA6D0A3E2BF4C0C400730D5D /* BaseTableView.swift in Sources */,
 				FA9B6CBE2B7F5B7F00621232 /* MainTabBarController.swift in Sources */,
 				FA5B262B2B85EC9500B3C9D1 /* ArticleTableViewCell.swift in Sources */,
 				FAC482692B872BAA003E5CAE /* EndpointStory.swift in Sources */,
@@ -934,6 +1154,7 @@
 				FA9B6CE32B832A1800621232 /* DashboardViewController.swift in Sources */,
 				FA5B26142B84698E00B3C9D1 /* KeychainManager.swift in Sources */,
 				FA3D51AF2B959AD700FDF032 /* CryptoManager.swift in Sources */,
+				FA0CC9402BDBA841007E4F88 /* ExampleLogicViewController.swift in Sources */,
 				FA5B26162B84747100B3C9D1 /* CoreDataHelper.swift in Sources */,
 				FAC482732B892768003E5CAE /* ExampleMultithreadingViewController.swift in Sources */,
 				FA5B25F92B8364EE00B3C9D1 /* DashboardGridViewController.swift in Sources */,
@@ -942,6 +1163,7 @@
 				FA5B261B2B84AE5800B3C9D1 /* ProfileViewController.swift in Sources */,
 				FA9B6CDF2B83266700621232 /* LoginViewController.swift in Sources */,
 				FA4131F22BA735B100FD4C51 /* ExampleCoreDataViewController.swift in Sources */,
+				FA6D0A302BE543C800730D5D /* ExmpleSkeletonViewController.swift in Sources */,
 				FAC482802B8B1E9B003E5CAE /* ExamplePublishRelayViewController.swift in Sources */,
 				FAC4826F2B888E0B003E5CAE /* ResultModel.swift in Sources */,
 				FA1F3FB42B58C83500B44459 /* SceneDelegate.swift in Sources */,
@@ -1298,7 +1520,7 @@
 		};
 		FA3D51FD2B9859F200FDF032 /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3D20A4959C85FC8096E9121 /* Pods-ProjectPertama.debug.xcconfig */;
+			baseConfigurationReference = C7F0965807E04D27CBD5295A /* Pods-ProjectPertama.qa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

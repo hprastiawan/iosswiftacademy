@@ -3,4 +3,166 @@
    uuid = "FFE85715-8ACD-454F-94A5-E748A6F9CC66"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B33E0A61-D8F3-49BA-97D0-0278080BB65B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectPertama/Module/ExampleClosure/Closure/ExampleNotificationCenterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "handleDataNotification(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B33E0A61-D8F3-49BA-97D0-0278080BB65B - 534915ad763d36a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectPertama.ExampleNotificationCenterViewController.handleDataNotification(Foundation.Notification) -&gt; ()"
+                  moduleName = "ProjectPertama"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/ProjectPertama/ProjectPertama/Module/ExampleClosure/Closure/ExampleNotificationCenterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "B33E0A61-D8F3-49BA-97D0-0278080BB65B - 534915ad763d36c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectPertama.ExampleNotificationCenterViewController.handleDataNotification(Foundation.Notification) -&gt; ()"
+                  moduleName = "ProjectPertama"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/ProjectPertama/ProjectPertama/Module/ExampleClosure/Closure/ExampleNotificationCenterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6FC82E2-EEF6-4123-9886-33ECD1E28C4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectPertama/Common/BaseTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6FC82E2-EEF6-4123-9886-33ECD1E28C4F - 49b56df748dcef7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectPertama.BaseTableView.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "ProjectPertama"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/ProjectPertama/ProjectPertama/Common/BaseTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "B6FC82E2-EEF6-4123-9886-33ECD1E28C4F - 49b56df748dcef5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectPertama.BaseTableView.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "ProjectPertama"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/ProjectPertama/ProjectPertama/Common/BaseTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31034112-38BE-4305-A98B-FB848F59CB63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectPertama/Common/BaseTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "scrollViewDidEndDecelerating(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1943F9F-E89F-479B-A16D-FF9E1D8F096A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectPertama/Common/BaseTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "scrollViewWillBeginDragging(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1943F9F-E89F-479B-A16D-FF9E1D8F096A - 49b56df748dcefa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectPertama.BaseTableView.scrollViewDidScroll(__C.UIScrollView) -&gt; ()"
+                  moduleName = "ProjectPertama"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/ProjectPertama/ProjectPertama/Common/BaseTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "E1943F9F-E89F-479B-A16D-FF9E1D8F096A - 7ac6d1e79c4a276a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectPertama.BaseTableView.scrollViewWillBeginDragging(__C.UIScrollView) -&gt; ()"
+                  moduleName = "ProjectPertama"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/PhinconAcademy/Project/ProjectPertama/ProjectPertama/Common/BaseTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

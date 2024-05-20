@@ -53,6 +53,18 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
     hidesBottomBarWhenPushed = false
   }
 
+  func setHiddenTabBar(_ hidden: Bool, animated: Bool) {
+    let tabBar = self.tabBar
+    let screenHeight =  UIScreen.main.bounds.height
+    let tabBarHeight = tabBar.frame.height
+
+    let offsetY = hidden ? screenHeight + 30.0 : screenHeight - tabBarHeight
+
+    UIView.animate(withDuration: animated ? 0.3 : 0.0) {
+      tabBar.frame.origin.y = offsetY
+    }
+  }
+
   override func loadView() {
     super.loadView()
     self.tabBar.addSubview(btnMiddle)
@@ -82,7 +94,7 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
     self.tabBar.unselectedItemTintColor = UIColor.white
     self.tabBar.tintColor = UIColor.label
     self.tabBar.backgroundColor = UIColor.systemBackground
-    self.tabBar.backgroundColor = UIColor.white
+    self.tabBar.backgroundColor = UIColor.clear
 
   }
 

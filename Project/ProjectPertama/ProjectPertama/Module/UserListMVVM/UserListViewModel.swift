@@ -18,7 +18,7 @@ enum LoadingState: String {
 class UserListViewModel {
 
   var articles = BehaviorRelay<PlaceHolder?>(value: nil)
-  var loadingState = BehaviorRelay<LoadingState>(value: .finished)
+  var loadingState = BehaviorRelay<LoadingState>(value: .loading)
 
   func fetchPlaceholder() {
     // Panggil fungsi fetchProductRequest melalui instance shared dari kelas NetworkManager

@@ -20,9 +20,7 @@ class ExampleAudioPlayerViewController: UIViewController {
 
 
   @IBOutlet var tableView: UITableView!
-
   @IBOutlet weak var audioImage: UIImageView!
-
   @IBOutlet weak var playAudioButton: UIButton!
 
   override func viewDidLoad() {

@@ -33,6 +33,7 @@ class InputField: UIView {
         let view = self.loadNib()
         view.frame = self.bounds
         view.backgroundColor = .white
+        inputTextTapRadius.setTitle("", for: .normal)
         self.addSubview(view)
     }
 

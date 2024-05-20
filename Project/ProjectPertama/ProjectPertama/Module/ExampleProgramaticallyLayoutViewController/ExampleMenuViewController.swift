@@ -6,73 +6,94 @@
 //
 
 import UIKit
+import SwiftUI
 
-import UIKit
+//@available(iOS 13.0, *)
+//struct ViewController_Previews: PreviewProvider {
+//  static var previews: some View {
+//    previewViewController(ExampleMenuViewController())
+//  }
+//}
 
 // Struktur data untuk item-menu makanan
 struct MenuItem {
-    let name: String
-    let price: Double
-    let description: String
-    let imageURL: String
+  let name: String
+  let price: Double
+  let description: String
+  let imageURL: String
 }
 
 class ExampleMenuViewController: UIViewController {
 
-    // Data-menu makanan
-    let section1Items: [MenuItem] = [
-        MenuItem(name: "Nasi Goreng", price: 15.0, description: "Nasi goreng spesial dengan telur dadar, ayam, dan sayuran.", imageURL: "ic_dish_img1"),
-        MenuItem(name: "Mie Ayam", price: 12.0, description: "Mie ayam dengan irisan daging ayam, pangsit, dan kuah kaldu.", imageURL: "ic_dish_img2"),
-        // Tambahkan item-menu lainnya jika diperlukan
-    ]
+  // Data-menu makanan
+  let section1Items: [MenuItem] = [
+    MenuItem(name: "Nasi Goreng", price: 15.0, description: "Nasi goreng spesial dengan telur dadar, ayam, dan sayuran.", imageURL: "ic_dish_img1"),
+    MenuItem(name: "Mie Ayam", price: 12.0, description: "Mie ayam dengan irisan daging ayam, pangsit, dan kuah kaldu.", imageURL: "ic_dish_img2"),
+    // Tambahkan item-menu lainnya jika diperlukan
+  ]
 
-    let section2Items: [MenuItem] = [
-        MenuItem(name: "Sate Ayam", price: 20.0, description: "Sate ayam spesial dengan bumbu kacang dan irisan bawang.", imageURL: "ic_dish_img3"),
-        MenuItem(name: "Gado-Gado", price: 18.0, description: "Gado-gado dengan campuran sayuran segar dan bumbu kacang khas.", imageURL: "ic_dish_img4"),
-        // Tambahkan item-menu lainnya jika diperlukan
-    ]
+  let section2Items: [MenuItem] = [
+    MenuItem(name: "Sate Ayam", price: 20.0, description: "Sate ayam spesial dengan bumbu kacang dan irisan bawang.", imageURL: "ic_dish_img3"),
+    MenuItem(name: "Gado-Gado", price: 18.0, description: "Gado-gado dengan campuran sayuran segar dan bumbu kacang khas.", imageURL: "ic_dish_img4"),
+    // Tambahkan item-menu lainnya jika diperlukan
+  ]
 
-    // Tabel-menu
-    var tableView: UITableView!
+  // Tabel-menu
+  var tableView: UITableView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
-        // Membuat tabel-menu
-        tableView = UITableView(frame: view.bounds, style: .plain)
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.register(MenuTableViewCell.self, forCellReuseIdentifier: "MenuTableViewCell")
-        view.addSubview(tableView)
-    }
+    self.view.backgroundColor = .systemRed
+    self.navigationItem.title = "Test Table View"
+
+    self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "back", style: .plain, target: self, action: nil)
+
+    self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star"), style: .plain, target: self, action: #selector(didTapRightButton))
+
+
+    // Membuat tabel-menu
+    tableView = UITableView(frame: view.bounds, style: .plain)
+    tableView.delegate = self
+    tableView.dataSource = self
+    tableView.register(MenuTableViewCell.self, forCellReuseIdentifier: "MenuTableViewCell")
+    view.addSubview(tableView)
+    tableView.isHidden = true
+  }
+
+  @objc private func didTapRightButton() {
+    print("hello World")
+    let vc = ExamplePDFKitViewController()
+    self.navigationController?.pushViewController(vc, animated: true)
+  }
 }
 
 extension ExampleMenuViewController: UITableViewDataSource, UITableViewDelegate {
 
-    func numberOfSections(in tableView: UITableView) -> Int {
-        // Menentukan jumlah bagian (sections) dalam tabel
-        return 2
-    }
+  func numberOfSections(in tableView: UITableView) -> Int {
+    // Menentukan jumlah bagian (sections) dalam tabel
+    return 2
+  }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // Menentukan jumlah sel dalam setiap bagian
-        return section == 0 ? section1Items.count : section2Items.count
-    }
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    // Menentukan jumlah sel dalam setiap bagian
+    return section == 0 ? section1Items.count : section2Items.count
+  }
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // Membuat sel untuk setiap bagian dan menampilkannya dengan data dari struktur MenuItem
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    // Membuat sel untuk setiap bagian dan menampilkannya dengan data dari struktur MenuItem
 
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell", for: indexPath) as! MenuTableViewCell
+    let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell", for: indexPath) as! MenuTableViewCell
 
-        let menuItem = indexPath.section == 0 ? section1Items[indexPath.row] : section2Items[indexPath.row]
-        cell.configure(with: menuItem)
+    let menuItem = indexPath.section == 0 ? section1Items[indexPath.row] : section2Items[indexPath.row]
+    cell.configure(with: menuItem)
 
-        return cell
-    }
+    return cell
+  }
 
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        // Menentukan tinggi sel
-      return UITableView.automaticDimension
-    }
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    // Menentukan tinggi sel
+    return UITableView.automaticDimension
+  }
 }
 

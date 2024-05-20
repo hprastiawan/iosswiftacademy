@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,14 +20,8 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contoh CollectionView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UR-qe-mHW">
-                    <rect key="frame" x="20" y="59" width="353" height="30"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="t47-nB-jRt">
-                    <rect key="frame" x="0.0" y="99" width="393" height="753"/>
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f4A-GW-6RW">
                         <size key="itemSize" width="128" height="128"/>
@@ -40,12 +35,9 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="t47-nB-jRt" secondAttribute="bottom" id="2tB-c0-UDS"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2UR-qe-mHW" secondAttribute="trailing" constant="20" id="9ZJ-3s-1dF"/>
+                <constraint firstItem="t47-nB-jRt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DvQ-f3-1sb"/>
                 <constraint firstItem="t47-nB-jRt" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="G00-4q-9gD"/>
-                <constraint firstItem="2UR-qe-mHW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="VYk-Nf-kSk"/>
-                <constraint firstItem="t47-nB-jRt" firstAttribute="top" secondItem="2UR-qe-mHW" secondAttribute="bottom" constant="10" id="aWl-UR-wnz"/>
                 <constraint firstItem="t47-nB-jRt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="noD-M8-fFQ"/>
-                <constraint firstItem="2UR-qe-mHW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="xp8-5W-Ex6"/>
             </constraints>
             <point key="canvasLocation" x="-37.404580152671755" y="19.718309859154932"/>
         </view>

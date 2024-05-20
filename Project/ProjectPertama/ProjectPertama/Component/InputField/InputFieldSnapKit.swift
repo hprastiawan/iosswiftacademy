@@ -114,6 +114,7 @@ class InputFieldView: UIView {
     passwordErrLabel.snp.makeConstraints { make in
       make.leading.equalToSuperview().offset(10)
       make.top.equalTo(passwordView.snp.bottom).offset(8)
+
     }
 
     passwordView.setGradient()

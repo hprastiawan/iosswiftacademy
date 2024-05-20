@@ -14,5 +14,5 @@ target 'ProjectPertama' do
   pod 'SkeletonView'
   pod 'FloatingPanel'
   pod 'lottie-ios'
-
+  
 end

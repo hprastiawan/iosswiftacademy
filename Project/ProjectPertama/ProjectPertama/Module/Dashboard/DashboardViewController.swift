@@ -23,12 +23,15 @@ struct DataStruct2 {
 
 class DashboardViewController: UIViewController {
 
-  @IBOutlet weak var tableView: UITableView!
+  @IBOutlet weak var tableView: BaseTableView!
 
   // Data for each section
   let sectionData = ["Section 1", "Section 2"]
   let dataForSection1: [DataStruct1] = [DataStruct1(title: "Title 1", subtitle: "Subtitle 1"), DataStruct1(title: "Title 2", subtitle: "Subtitle 2")]
   let dataForSection2: [DataStruct2] = [DataStruct2(name: "John", age: 70, personImage: "prabowo"), DataStruct2(name: "Alice", age: 35, personImage: "gibran")]
+
+  var previousContentOffset: CGFloat = 0
+  var isTabBarHidden: Bool = false
 
 
   override func viewDidLoad() {
@@ -40,8 +43,22 @@ class DashboardViewController: UIViewController {
     // Register the custom cell .xib file with the UITableView
     tableView.register(UINib(nibName: "ListItemCell", bundle: nil), forCellReuseIdentifier: "ListItemCell")
     tableView.register(UINib(nibName: "PersonListCell", bundle: nil), forCellReuseIdentifier: "PersonListCell")
-
   }
+
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    hideNavigationBar()
+  }
+
+
+  func hideNavigationBar() {
+    self.navigationController?.isToolbarHidden = true
+    self.navigationController?.isNavigationBarHidden = true
+    self.navigationController?.navigationBar.isTranslucent = false
+
+    hidesBottomBarWhenPushed = false
+  }
+
 
 }
 
@@ -92,8 +109,41 @@ extension DashboardViewController: UITableViewDelegate, UITableViewDataSource {
 
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-
     let vc = DashboardGridViewController()
     self.navigationController?.pushViewController(vc, animated: true)
+  }
+}
+
+// MARK: ScrollTableView to hide mainTabbar
+extension DashboardViewController: UIScrollViewDelegate {
+  func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+    previousContentOffset = scrollView.contentOffset.y
+  }
+
+  func scrollViewDidScroll(_ scrollView: UIScrollView) {
+
+    guard let mainTabBar = tabBarController as? MainTabBarController else { return }
+    let currentContentOffset = scrollView.contentOffset.y
+    if currentContentOffset > previousContentOffset   {
+      if !isTabBarHidden {
+        mainTabBar.setHiddenTabBar(true, animated: true)
+        isTabBarHidden = true
+      }
+    } else {
+      if isTabBarHidden {
+        mainTabBar.setHiddenTabBar(false, animated: true)
+        isTabBarHidden = false
+      }
+    }
+
+    previousContentOffset = currentContentOffset
+  }
+
+  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    guard let mainTabBar = tabBarController as? MainTabBarController else { return }
+
+    if !isTabBarHidden {
+      mainTabBar.setHiddenTabBar(false, animated: true)
+    }
   }
 }

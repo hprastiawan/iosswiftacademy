@@ -7,14 +7,14 @@
 
 import UIKit
 
+
+
 class DashboardGridViewController: UIViewController {
 
   @IBOutlet weak var collectionView: UICollectionView!
 
 
   let imageNames = ["image1", "image2", "image3", "image4", "image5"]
-
-
 
 
   override func viewDidLoad() {
@@ -45,9 +45,22 @@ class DashboardGridViewController: UIViewController {
     //    collectionView.collectionViewLayout = self.setupLayout()
     configureCompositionalLayout()
 
-
-
   }
+
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    hideNavigationBar()
+  }
+
+
+  func hideNavigationBar() {
+    self.navigationController?.isToolbarHidden = true
+    self.navigationController?.isNavigationBarHidden = true
+    self.navigationController?.navigationBar.isTranslucent = false
+
+    hidesBottomBarWhenPushed = false
+  }
+
 
 
   func setupLayout() -> UICollectionViewLayout {
